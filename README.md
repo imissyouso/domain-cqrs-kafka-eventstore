@@ -1,7 +1,7 @@
 This is quck and dirty proof-of-concept implementation. Do not use it in production. Details https://github.com/adrai/node-eventstore/issues/105
 
 TODO:
-* use per topic per aggregate;
+* use per topic per aggregate type;
 * determine partitions by aggregate id (now we are using partition 0 of topic **events** always);
 * implement different drivers for aggregate states storage (currently we're storing states in RAM, object);
 * auto warm-up of out-to-date/empty aggregate states storage; detect if aggregate state was destroyed or out of sync;
