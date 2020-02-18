@@ -142,7 +142,7 @@ export class KafkaEventStore extends EventEmitter {
     }
 
     public setEventToDispatched(evt, callback) {
-        // We don't implement and store eventsToDispatch array, it does not make since, Kafka is a bus by itself.
+        // We don't implement and store eventsToDispatch array, it does not make sense, Kafka is a bus by itself.
         callback(null);
     }
 
