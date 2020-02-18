@@ -5,6 +5,7 @@ TODO:
 * determine partitions by aggregate id (now we are using partition 0 of topic **events** always);
 * implement different drivers for aggregate states storage (currently we're storing states in RAM, object);
 * auto warm-up of out-to-date/empty aggregate states storage; detect if aggregate state was destroyed or out of sync;
+* debug, tests, production use cases;
 
 See also:
 * https://github.com/adrai/node-cqrs-domain
