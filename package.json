@@ -1,0 +1,33 @@
+{
+  "name": "domain-cqrs-kafka-eventstore",
+  "version": "1.0.0",
+  "description": "Kafka evenstore implementation for node-cqrs-domain library",
+  "main": "kafkaEventStore.js",
+  "dependencies": {
+    "@types/events": "^3.0.0",
+    "cqrs-domain": "^2.14.78",
+    "kafka-node": "^5.0.0",
+    "object-assign-deep": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imissyouso/domain-cqrs-kafka-eventstore.git"
+  },
+  "keywords": [
+    "cqrs",
+    "kafka",
+    "ddd",
+    "domain",
+    "eventstore"
+  ],
+  "author": "Andrey Vorobyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imissyouso/domain-cqrs-kafka-eventstore/issues"
+  },
+  "homepage": "https://github.com/imissyouso/domain-cqrs-kafka-eventstore#readme"
+}
