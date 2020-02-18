@@ -1,4 +1,4 @@
-This is proof-of-concept implementation. Do not use it in production. Details https://github.com/adrai/node-eventstore/issues/105
+This is quck and dirty proof-of-concept implementation. Do not use it in production. Details https://github.com/adrai/node-eventstore/issues/105
 
 TODO:
 * use per topic per aggregate;
