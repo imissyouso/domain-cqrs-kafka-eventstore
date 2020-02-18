@@ -11,7 +11,7 @@ Usage:
 ```javascript
 var domain = require('cqrs-domain')({
   	//...
-	eventStore: createKafkaStore({
+	eventStore: createKafkaEventStore({
 		ackTimeout: 3000, // when we save events to kafka we wait when we will receive them in consumer and only then saving considered completed. If consumer doesn't received it then we throw exception.
 		client: {kafkaHost: 'kafka:9092'},
 		sources: [
